@@ -1,0 +1,14 @@
+name: ExodonSecurity
+author: Jestiz
+main: net.exodon.security.ExodonSecurity
+version: 1.0
+description: Security plugin for the server Exodon.
+
+commands:
+  pin:
+    description: "Login or sets your pin."
+    aliases: login
+  blacklist:
+    description: "Blacklist a player (can't be unbanned)"
+  ipreset:
+    description: "Reset the ip of a player"
